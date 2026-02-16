@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.HashSet;
 import java.util.Set;
 
-public class AmazonUniqueImages {
+public class AmazonUniqueImagesTest {
     @Test
     public void main() {
 
