@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.981" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ssha/Documents/Learn/maven/my-project/target/test-classes:/Users/ssha/Documents/Learn/maven/my-project/target/classes:/Users/ssha/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/ssha/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ssha/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ssha/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.6+10/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ssha/Documents/Learn/maven/my-project/target/surefire/surefirebooter-20260207215002805_3.jar /Users/ssha/Documents/Learn/maven/my-project/target/surefire 2026-02-07T21-50-02_601-jvmRun1 surefire-20260207215002805_1tmp surefire_0-20260207215002805_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ssha/Documents/Learn/maven/my-project/target/test-classes:/Users/ssha/Documents/Learn/maven/my-project/target/classes:/Users/ssha/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/ssha/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ssha/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ssha/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ssha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.6+10/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ssha/Documents/Learn/maven/my-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/ssha/Documents/Learn/maven/my-project/target/surefire/surefirebooter-20260207215002805_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="ssha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="/Users/ssha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/zp/96gqr5t95q392vpmvyddstrr0000gp/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/ssha/Documents/Learn/maven/my-project"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ssha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test1[1, 2, 3](1)" classname="com.demo.AppTest1" time="0.004">
+    <system-out><![CDATA[executing test1
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test1[4, 5, 9](2)" classname="com.demo.AppTest1" time="0.002">
+    <system-out><![CDATA[executing test1
+]]></system-out>
+  </testcase>
+  <testcase name="test1[9, 0, 9](3)" classname="com.demo.AppTest1" time="0.002">
+    <system-out><![CDATA[executing test1
+]]></system-out>
+  </testcase>
+  <testcase name="test1[2, 5, 7](4)" classname="com.demo.AppTest1" time="0.001">
+    <system-out><![CDATA[executing test1
+]]></system-out>
+  </testcase>
+  <testcase name="test1[5, 6, 11](5)" classname="com.demo.AppTest1" time="0.004">
+    <system-out><![CDATA[executing test1
+]]></system-out>
+  </testcase>
+  <testcase name="test2" classname="com.demo.AppTest1" time="0.004">
+    <system-out><![CDATA[executing test2
+]]></system-out>
+  </testcase>
+  <testcase name="test3" classname="com.demo.AppTest2" time="0.001">
+    <system-out><![CDATA[executing test3
+]]></system-out>
+  </testcase>
+  <testcase name="test4" classname="com.demo.AppTest2" time="0.001">
+    <system-out><![CDATA[executing test4
+]]></system-out>
+  </testcase>
+  <testcase name="test5" classname="test2.AppTest3" time="0.001">
+    <system-out><![CDATA[executing test5
+]]></system-out>
+  </testcase>
+  <testcase name="test6" classname="test2.AppTest3" time="0.001">
+    <system-out><![CDATA[executing test6
+]]></system-out>
+  </testcase>
+</testsuite>
